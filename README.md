@@ -1,5 +1,14 @@
 **NOTE** This is a GitHub hosted fork of Liam Staskawicz's db migration tool for Go, with added Amazon Redshift support.
 
+#### Example configuration for Amazon Redshift
+
+```yaml
+envname:
+    driver: postgres
+    dialect: redshift
+    open: #as you would add for a postgres connection
+```
+
 # goose
 
 goose is a database migration tool.
