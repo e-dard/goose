@@ -9,6 +9,12 @@ envname:
     open: #as you would add for a postgres connection
 ```
 
+#### Installation
+
+To install this fork is as straightforward as:
+
+`$ go get github.com/e-dard/goose/cmd/goose`
+
 # goose
 
 goose is a database migration tool.
